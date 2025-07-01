@@ -1,7 +1,8 @@
-
 ---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/cp1950985p23/public_html/iesd.fr
-     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - ls -la $DEPLOYPATH
 
